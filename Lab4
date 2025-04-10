@@ -1,0 +1,7 @@
+#[1;5] intervalında dəyişən təsadüfi həqiqi ədədlərdən ibarət siyahının(massivin) çıxışa verilməsi
+import random
+n=10
+a=[0]*n
+for i in range(n):
+    a[i]=random.uniform(1,5)
+print(a)
